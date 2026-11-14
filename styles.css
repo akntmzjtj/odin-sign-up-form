@@ -1,3 +1,13 @@
 .test {
     font-size: 3rem;
 }
+
+.form {
+    * {
+        display: block;
+    }
+
+    label {
+        text-transform: uppercase;
+    }
+}
