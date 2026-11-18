@@ -7,7 +7,7 @@
         display: block;
     }
 
-    label {
+    &>label {
         text-transform: uppercase;
     }
 }
