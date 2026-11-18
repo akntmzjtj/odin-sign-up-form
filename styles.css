@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(/assets/norse/Norsebold.otf);
+}
+
 body {
     display: flex;
 }
@@ -8,6 +13,10 @@ body {
 
 .form-side {
     flex: 2
+}
+
+.image-header {
+    font-family: Norse-Bold, sans-serif
 }
 
 .test {
