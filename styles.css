@@ -51,10 +51,6 @@ body {
   text-align: center;
 }
 
-.form-side {
-  flex: 2;
-}
-
 .image-header {
   background-color: rgba(0, 0, 0, 40%);
   height: 20%;
@@ -76,12 +72,26 @@ body {
   font-size: 3rem;
 }
 
-.form {
+.form-side {
+  flex: 2;
+}
+
+.form-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.form-container {
   * {
     display: block;
   }
 
   & > label {
     text-transform: uppercase;
+  }
+
+  /* For text within form container */
+  .heading {
+    font-size: 1.5rem;
   }
 }
